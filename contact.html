@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rivandi Portfolio</title>
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+
+<body onload="setTimeout(()=>document.body.classList.add('loaded'), 100)">
+  <div class="container">
+    <header>
+      <div class="logo">
+<div class="mark">RS</div>
+<div>
+<div style="font-weight:800">Rivandi Silalahi</div>
+<div style="font-size:13px;color:rgba(230,238,248,0.75)">Frontend Developer</div>
+</div></div>
+      <nav>
+        <a href="index.html" class="nav-link">My Profile</a>&nbsp; &nbsp;
+        <a href="certificate.html" class="nav-link">Certificate</a>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1>Contact Me</h1>
+      <p>Let’s collaborate or just have a chat!  
+      Feel free to send me a message through the form below — I’ll get back to you as soon as possible.</p>
+    </section>
+
+    <section class="contact-form">
+      <form action="https://formspree.io/f/xkgpqqvb" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Rivandi Portfolio</p>
+    </footer>
+  </div>
+</body>
+</html>
